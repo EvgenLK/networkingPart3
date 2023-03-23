@@ -18,7 +18,7 @@ enum ApiType { // создвли перечисление с кейсами
         return "https://jsonplaceholder.typicode.com/"
     }
     
-    var header: [String: String] { // создаем 
+    var header: [String: String] { // создае
         switch self {
         case .login:
             return["authToken": "12345"]
