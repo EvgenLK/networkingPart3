@@ -13,7 +13,7 @@ enum ApiType { // создвли перечисление с кейсами
     case getUsers
     case getPosts
     case getAlbums
-    
+    //rrrr
     var baseURL: String { // создали переменую с адресом сайта
         return "https://jsonplaceholder.typicode.com/"
     }
