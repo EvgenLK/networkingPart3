@@ -21,4 +21,4 @@ struct Album: Codable { // создли структуру
 
 typealias Albums = [Album] // назначили имя другое
 
-
+//
