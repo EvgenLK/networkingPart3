@@ -15,8 +15,7 @@ struct User: Codable {
     let phone, website: String?
     let company: Company?
 }
-//проверка
-
+//
 // MARK: - Address
 struct Address: Codable {
     let street, suite, city, zipcode: String?
